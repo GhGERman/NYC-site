@@ -1081,6 +1081,13 @@ nav {
   padding: 2px 7px 2px 7px;
 }
 
+.merchants-span {
+  color: #fff;
+  background-color: #0faab6d9;
+  border-radius: 20px;
+  padding: 2px 7px 2px 7px;
+}
+
 .social-span {
   color: #fff;
   background-color: #6f78b6d9;
@@ -1147,6 +1154,21 @@ nav {
 .mining a:hover {
   color: #000;
   background-color: #fff;
+}
+
+.vote {
+    position: absolute;
+    top: 784px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    height: 704px;
+    z-index: 1000;
+    opacity: .8;
+    -ms-zoom: 0.55;
+    -moz-transform: scale(0.55);
+    -o-transform: scale(0.55);
+    -webkit-transform: scale(0.55);
 }
 
 @media (max-width: 1136px) {
